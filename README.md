@@ -1,4 +1,4 @@
-# Progetto scacchi - Re
+# Progetto scacchi - RePedone
 
 Gruppo 4  
 [01] Aftouhi Oualid  
@@ -6,12 +6,12 @@ Gruppo 4
 [12] Halim Ayoub Meshrky Daniel  
 [18] Picoco Mattia			4	discord admin
 
-## Contiene Progetto King
+## Contiene Progetto King - Pawn
 
 -Parte di sviluppo del codice:   
 Picoco Mattia    
 Halim Daniel   
--Sviluppo delle relazioni:
+-Sviluppo delle relazioni e delle appendici:
 Fabiano Giuseppe  
 -Ragionamento sulle funzioni delle pedine:  
 Aftohui Welid
@@ -21,16 +21,16 @@ il codice si basa su un array BiDimensionale che uso come scacchiera e che stamp
 Utilizzo le lettere come segnaposto nella scacchiera e le classiche annotazioni (e5,b7,ecc..) per il movimento.
 
 ### -Errori conosciuti:  
-1 mancanza di registro mosse  
-2 mancanza di GUI
+1 mancanza di GUI
 
 ### -Traguardi raggiunti:  
 1 scrivere il codice  
 2 ideare un metodo di movimento e spazio per la scacchiera  
 3 attuare il movimento in progetto  
 4 permettere i movimenti completi delle pedine
-5 mancanza di turni in gioco  
-6 mancanza di tutorial
+5 turni in gioco  
+6 tutorial  
+7 registro delle mosse
 
 ## -Tutorial Scacchi:  
 Giocare a scacchi può essere all'inizio complesso e timoroso
@@ -61,6 +61,21 @@ Se messo sotto scacco matto la partita finisce
 non vale punti e non può essere mangiato  
 Il re può mangiare in ogni direzione di una casella  
 Il re non può saltare pedine  
+
+## -Tutorial Pedone:  
+Il pedone e' la pedina che vale meno sulla scacchiera (1)  
+Ne sono presenti però 8 per squadra, nella riga 2 e 7  
+I pedoni possono muoversi solo di 1 in avanti MAI IN DIETRO  
+I pedoni possono compiere doppio passo  
+Durante il loro primo passo possono saltare infatti di 2  
+I pedoni possono mangiare solo in diagonale di una casella  
+I pedoni non possono saltare pedine (neanche doppio passo)  
+Se un pedone arriva alla fine della scacchiera si evolve  
+Può diventare infatti:  
+- Regina  
+- Cavallo  
+- Torre  
+- Alfiere
 
 ## -Spiegazione codice:  
 ### -Scacchi:  
@@ -111,6 +126,19 @@ Il re infatti:
 Se le cordinate inviate rispettano i parametri allora avverrà il movimento (la sostituzione/sovrascrizione).
 
 ![King](https://github.com/MatPico/galilux2324_4iB_Re/assets/160752254/c1ca465a-cf82-4971-b9a3-a9fd6ef07f99)
+
+### -Pedone:  
+La classe Pawn.java si occupa delle regole del pedone  
+Il pedone infatti:  
+- si muove sempre nella stessa colonna
+- si muove sempre in avanti
+- si muove sempre di 1 casella
+- si può muovere solo la prima volta di 2 caselle
+
+Se le cordinate inviate rispettano i parametri allora avverrà il movimento (la sostituzione/sovrascrizione).
+
+![Pawn](https://github.com/MatPico/galilux2324_4iB_Pedone/assets/160752254/6027acac-e73f-4a96-b9fe-d85d0c27c431)
+
 
 
 
