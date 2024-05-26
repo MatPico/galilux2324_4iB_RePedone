@@ -11,7 +11,7 @@ Gruppo 4
 -Parte di sviluppo del codice:   
 Picoco Mattia    
 Halim Daniel   
--Sviluppo delle relazioni e delle appendici:
+-Sviluppo delle relazioni e delle appendici:  
 Fabiano Giuseppe  
 -Ragionamento sulle funzioni delle pedine:  
 Aftohui Welid
